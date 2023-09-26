@@ -1,0 +1,948 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    background-image: url('images/background003.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav_bar{
+
+    padding: 2%;
+    width: auto;
+    margin: auto;
+    height: 3vh;
+    
+    
+  }
+  
+  .nav_bar span{
+  
+    
+    font-size: 5vh;
+    color: white;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  
+  .nav_bar .drop_down{
+  
+    width: auto;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+.nav_bar .drop_down button{
+
+    width: 10vh;
+    height: 6vh;
+    border-radius: 10%;
+    border: none;
+    font-size: 2.6vh;
+    color: black;
+    background-color: white;
+}
+
+.nav_bar .drop_down .dropdown_content{
+
+    position: absolute;
+    display: none;
+    left: -130%;
+    top: 6vh;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 3vh;
+       
+   
+}
+
+.dropdown_content a{
+
+    float: none;
+    display: block;
+    font-size: 2.5vh;
+    padding: 3vh;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+    
+}
+
+
+.nav_bar .drop_down:hover .dropdown_content{
+
+    
+    display: block;
+    transition: 700ms;
+    
+    
+   
+}
+
+
+.drop_down button:hover{
+
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+}
+
+.dropdown_content a:hover{
+
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+}
+
+
+
+.about{
+
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vh;
+    
+}
+
+
+.about .image{
+
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.about .image img{
+
+    
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+.about .about_content{
+
+    color: white;
+    padding: 2%;
+}
+
+.about .about_content h3{
+
+    font-size: 3.2vh;
+    text-align: center;
+}
+
+.about .about_content p{
+
+    font-size: 3.5vh;
+    line-height: 4.5vh;
+    text-align: justify;
+}
+
+.education_heading{
+
+    text-align: center;
+    font-size: 6vh;
+    color: white;
+}
+
+.education{
+
+    margin: auto;
+    margin-top: 3%;
+    width: 60%;
+    height: auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.5%;
+    background-color: rgba(225,225,225, 0.6);
+}
+
+.education .collegelogodiv{
+
+    margin-top: 1.5%;
+    padding: 2%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.education .schoollogodiv{
+
+    margin-top: 1.5%;
+    padding: 2%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.education .collegelogodiv .college_logo{
+
+    width: 8vh;
+    height: 8vh;
+}
+
+.education .schoollogodiv .school_logo{
+
+    width: 8vh;
+    height: 8vh;
+}
+
+.education .college{
+
+    margin-top: 1.5%;
+    padding: 2%;
+    width: 100%;
+    height: auto;
+    color: black;
+    
+}
+
+
+.education .hsc{
+
+    margin-top: 1.5%;
+    padding: 2%;
+    width: 100%;
+    height: auto;
+    color: black;
+   
+}
+
+.education .sslc{
+
+    margin-top: 1.5%;
+    padding: 2%;
+    width: 100%;
+    height: auto;
+    color: black;
+   
+}
+
+
+.education .stream{
+
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+
+.education .inst_name{
+
+    font-size: 3.2vh;
+
+}
+
+.education .percentage{
+
+    font-size: 2.5vh;
+}
+
+
+.bottom{
+
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vh;
+    background-color: black;
+}
+
+.bottom .contact{
+
+    margin: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.bottom .contact span{
+
+    font-size: 6vh;
+    font-weight: bolder;
+    color: white;
+}
+
+.bottom .contact img{
+
+    width: 7vh;
+    height: 7vh;
+    padding: 2vh;
+}
+
+.bottom .contact img:hover{
+
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    transition: 300ms;
+}
+
+.bottom .contact h3{
+
+    color: white;
+    font-size: 3vh;
+}
+
+.bottom .resume{
+
+    margin: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom .resume .download_button{
+
+    background-color:  #ff1a66;
+    color: white;
+    border: none;
+    font-size: 2.5vh;
+    font-weight: 900;
+    padding: 4%;
+    width: auto;
+    height: auto;
+}
+
+.bottom .resume .resume_content{
+
+    color: white;
+    font-size: 3.5vh;
+    font-weight: bolder;
+}
+
+.bottom .resume .download_button:hover{
+
+    background-color: white;
+    color: #ff1a66;
+    border-radius: 5%;
+    font-size: 2.7vh;
+    font-weight: 900;
+    padding: 4%;
+    width: auto;
+    height: auto;
+    transition: 300ms;
+}
+
+.others{
+
+    margin: auto;
+    width: 77%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    column-gap: 7vh;
+    grid-template-rows: 5fr 5fr;
+    row-gap: 7vh;
+    padding: 5%;
+   
+
+}
+
+.others .certifications{
+
+    padding: 5%;
+    padding-left: 10%;
+    background-color: rgba(0,0,0, 0.4);
+    background-size: cover;
+    border-radius: 4%;
+    
+}
+
+
+.others .certifications h3{
+
+    font-size: 4.5vh;
+    color: white;
+}
+
+.others .certifications ul{
+
+    list-style: disc;
+}
+
+.others .certifications ul li{
+
+    font-size: 3.2vh;
+    color: white;
+}
+
+.others .certifications button{
+
+    width: 17vh;
+    height: 6vh;
+    font-size: 2.5vh;
+    border: none;
+    padding: 2%;
+    background-color: #ff1a66;
+    color: white;
+    margin-top: 3%;
+    
+}
+
+.others .certifications button:hover{
+
+    width: 18vh;
+    height: 7vh;
+    background-color: white;
+    color: #ff1a66;
+    font-size: 2.6vh;
+    transition: 500ms;
+}
+
+.others .projects{
+
+    padding: 5%;
+    padding-left: 10%;
+    background-color: rgba(0,0,0, 0.4);
+    background-size: cover;
+    border-radius: 4%;
+    
+}
+
+.others .projects h3{
+
+    font-size: 4.5vh;
+    color: white;
+}
+
+.others .projects ul{
+
+    list-style: disc;
+}
+
+.others .projects ul li{
+
+    font-size: 3.2vh;
+    color: white;
+}
+
+.others .projects button{
+
+    width: 17vh;
+    height: 6vh;
+    font-size: 2.5vh;
+    border: none;
+    padding: 2%;
+    background-color:  #ff1a66;
+    color: white;
+    margin-top: 3%;
+    
+}
+
+.others .projects button:hover{
+
+    width: 18vh;
+    height: 7vh;
+    background-color: white;
+    color: #ff1a66;
+    font-size: 2.6vh;
+    transition: 500ms;
+}
+
+.others .publications{
+
+    padding: 5%;
+    padding-left: 10%;
+    background-color: rgba(0,0,0, 0.4);
+    background-size: cover;
+    border-radius: 4%;
+    
+}
+
+.others .publications h3{
+
+    font-size: 4.5vh;
+    color: white;
+}
+
+.others .publications ul{
+
+    list-style: disc;
+}
+
+.others .publications ul li{
+
+    font-size: 3.2vh;
+    color: white;
+}
+
+.others .publications button{
+
+    width: 17vh;
+    height: 6vh;
+    font-size: 2.5vh;
+    border: none;
+    padding: 2%;
+    background-color:  #ff1a66;
+    color: white;
+    margin-top: 3%;
+    
+}
+
+.others .publications button:hover{
+
+    width: 18vh;
+    height: 7vh;
+    background-color: white;
+    color: #ff1a66;
+    font-size: 2.6vh;
+    transition: 500ms;
+}
+
+.others .skills{
+
+    padding: 5%;
+    padding-left: 10%;
+    background-color: rgba(0,0,0, 0.4);
+    background-size: cover;
+    border-radius: 4%;
+    
+}
+
+.others .skills h3{
+
+    font-size: 4.5vh;
+    color: white;
+}
+
+.others .skills ul{
+
+    list-style: disc;
+}
+
+.others .skills ul li{
+
+    font-size: 3.2vh;
+    color: white;
+}
+
+.others .skills button{
+
+    width: 17vh;
+    height: 6vh;
+    font-size: 2.5vh;
+    border: none;
+    padding: 2%;
+    background-color:  #ff1a66;
+    color: white;
+    margin-top: 3%;
+    
+}
+
+.others .skills button:hover{
+
+    width: 18vh;
+    height: 7vh;
+    background-color: white;
+    color: #ff1a66;
+    font-size: 2.6vh;
+    transition: 500ms;
+}
+
+@media screen and (max-width:1000px) {
+
+    .skills_div{
+
+      display: grid;
+      grid-template-columns: 5fr 5fr;
+    }
+    
+  }
+
+  @media screen and (max-width:600px) {
+
+    .skills_div{
+
+      display: block;
+  
+    }
+
+    .skills_div .skill{
+
+      width: auto;
+      height: auto;
+      margin: 5vh;
+    }
+    
+  }
+
+  @media screen and (max-width: 1250px) {
+
+    .about{
+
+        display: block;
+    }
+
+    .education{
+
+        display: block;
+    }
+
+    .others{
+
+        display: block;
+    }
+    
+    .others .certifications{
+
+        width: auto;
+        height: auto;
+        padding: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .others .projects{
+
+        width: auto;
+        height: auto;
+        padding: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .others .publications{
+
+        width: auto;
+        height: auto;
+        padding: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .others .skills{
+
+        width: auto;
+        height: auto;
+        padding: 5vh;
+        margin-bottom: 5vh;
+    }
+  }
+
+ 
+
+  @media screen and (max-width:915px) {
+
+    
+    .about .image img{
+
+    
+        width: 23vh;
+        height: 23vh;
+        margin-top: 5vh;
+        border-radius: 50%;
+    }
+        
+    .about .about_content h3{
+
+        font-size: 2.5vh;
+    }
+    
+    .about .about_content p{
+    
+        font-size: 2.3vh;
+    }
+
+    .education{
+
+        width: 85%;
+    }
+
+    .education_heading{
+    
+        font-size: 4vh;
+    }
+
+
+    .education .collegelogodiv .college_logo{
+
+        width: 8vh;
+        height: 8vh;
+    }
+    
+    .education .schoollogodiv .school_logo{
+    
+        width: 8vh;
+        height: 8vh;
+    }
+
+    .education .hsc{
+
+        margin-top: 1.5%;
+        padding: 3%;
+        width: 100%;
+        height: auto;
+        color: black;
+       
+    }
+    
+    .education .sslc{
+    
+        margin-top: 1.5%;
+        padding: 3%;
+        width: 100%;
+        height: auto;
+        color: black;
+       
+    }
+    
+    
+    .education .stream{
+    
+        font-size: 4vh;
+        
+    }
+    
+    
+    .education .inst_name{
+    
+        font-size: 3.6vh;
+    
+    }
+    
+    .education .percentage{
+    
+        font-size: 2.5vh;
+    }
+
+    .others{
+
+        width: 85%;
+    
+    }
+    
+    .others .certifications{
+
+        margin-bottom: 3.3vh;
+    }
+
+    .others .projects{
+
+        margin-bottom: 3.3vh;
+    }
+
+    .others .publications{
+
+        margin-bottom: 3.3vh;
+    }
+
+    .others .skills{
+
+        margin-bottom: 3.3vh;
+    }
+    
+    .others .certifications h3{
+    
+        font-size: 3.7vh;
+    }
+    
+    
+    .others .certifications ul li{
+    
+        font-size: 2.5vh;
+
+    }
+    
+    .others .certifications button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.7vh;
+        padding: 2%;
+    
+    }
+    
+    .others .certifications button:hover{
+    
+        width: auto;
+        height: auto;
+        font-size: 2.1vh;
+    }
+    
+    
+    .others .projects h3{
+    
+        font-size: 3.7vh;
+    }
+    
+    
+    
+    .others .projects ul li{
+    
+        font-size: 2.5vh;
+    }
+    
+    .others .projects button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.7vh;
+        padding: 2%;
+        
+    }
+    
+    .others .projects button:hover{
+    
+        width: auto;
+        height: auto;
+        font-size: 2.1vh;
+    }
+    
+    
+    .others .publications h3{
+    
+        font-size: 3.7vh;
+    }
+    
+    
+    .others .publications ul li{
+    
+        font-size: 2.5vh;
+    }
+    
+    .others .publications button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.7vh;
+        padding: 2%;
+
+    }
+    
+    .others .publications button:hover{
+    
+        width: auto;
+        height: auto;
+        font-size: 2.1vh;
+    }
+    
+    
+    .others .skills h3{
+    
+        font-size: 3.7vh;
+    }
+    
+    
+    .others .skills ul li{
+    
+        font-size: 2.5vh;
+    }
+    
+    .others .skills button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.7vh;
+        padding: 2%;
+        
+    }
+    
+    .others .skills button:hover{
+    
+        width: auto;
+        height: auto;
+        font-size: 2.1vh;
+    }
+    
+    .nav_bar .drop_down button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.9vh;
+        padding: 1.2vh;
+        font-weight: bold;
+    }
+    
+    .dropdown_content a{
+    
+       
+        font-size: 2vh;
+        padding: 3vh;
+         
+    }
+
+    .nav_bar .drop_down .dropdown_content{
+
+        position: absolute;
+        left: -230%;
+        top: 5vh;   
+       
+      }
+ 
+    .bottom{
+
+        display: block;
+        transition: 300ms;
+    }
+
+    .bottom .contact span{
+
+        font-size: 4.5vh;
+        transition: 300ms;
+        
+    }
+
+    .bottom .contact img{
+
+        width: 5vh;
+        height: 5vh;
+        padding: 2vh;
+        transition: 300ms;
+    }
+
+    .bottom .contact h3{
+
+        font-size: 2.5vh;
+        font-weight: lighter;
+        transition: 300ms;
+    }
+
+    .bottom .resume .download_button{
+
+        font-size: 1.3vh;
+        margin-bottom: 2.5vh;
+        transition: 300ms;
+    }
+
+    .bottom .resume .resume_content{
+
+        font-size: 2.3vh;
+        font-weight: lighter;
+        transition: 300ms;
+
+    }
+    
+}
+
+
+
+

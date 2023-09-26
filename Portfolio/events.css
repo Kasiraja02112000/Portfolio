@@ -1,0 +1,376 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    background-image: url('images/background003.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .nav_bar{
+
+    padding: 2%;
+    width: auto;
+    margin: auto;
+    height: 3vh;
+    
+  }
+  
+  .nav_bar span{
+  
+    
+    font-size: 5vh;
+    color: white;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  
+  .nav_bar .drop_down{
+  
+    width: auto;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .nav_bar .drop_down button{
+  
+    width: 10vh;
+    height: 6vh;
+    border-radius: 10%;
+    border: none;
+    font-size: 2.6vh;
+    color: black;
+    background-color: white;
+  }
+  
+  .nav_bar .drop_down .dropdown_content{
+  
+    position: absolute;
+    display: none;
+    left: -130%;
+    top: 6vh;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 3vh;
+       
+   
+  }
+  
+  .dropdown_content a{
+  
+    float: none;
+    display: block;
+    font-size: 2.5vh;
+    padding: 3vh;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  
+  
+  .nav_bar .drop_down:hover .dropdown_content{
+  
+    
+    display: block;
+    transition: 700ms;
+    
+    
+   
+  }
+  
+
+  .drop_down button:hover{
+  
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+  }
+  
+  .dropdown_content a:hover{
+  
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+  }
+  
+  
+  .events{
+  
+    width: auto;
+    height: auto;
+    padding: 2%;
+  
+  }
+  
+  .events h1{
+  
+    font-size: 6.5vh;
+    color: white;
+    text-align: center;
+  }
+  
+
+  .events .organized_section h2{
+  
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .events .organized_section{
+  
+    width: 85%;
+    margin: auto;
+    height: auto;
+    padding: 3%;
+    text-align: left;
+  }
+  
+  .events .organized_section .title{
+  
+    font-size: 7vh;
+    color: white;
+    margin-bottom: 0%;
+    font-weight: bolder;
+  }
+  
+  
+
+  .events .organized_section .role{
+  
+    font-size: 4vh;
+    font-weight: bolder;
+    color: white;
+    margin-top: 0.1%;
+    margin-bottom: 2%;
+  }
+
+ 
+  .events .organized_section:hover .title{
+  
+    font-size: 8vh;
+    transition: 500ms;
+  }
+  
+  
+  
+  .events .organized_section:hover{
+  
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+  }
+
+
+
+  .events .participated_section h2{
+  
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .events .participated_section{
+  
+    width: 85%;
+    margin: auto;
+    height: auto;
+    padding: 3%;
+    text-align: left;
+  }
+  
+  .events .participated_section .title{
+  
+    font-size: 7vh;
+    color: white;
+    margin-bottom: 0%;
+    font-weight: bolder;
+  }
+  
+  
+
+  .events .participated_section .role{
+  
+    font-size: 4vh;
+    font-weight: bolder;
+    color: white;
+    margin-top: 0.1%;
+    margin-bottom: 2%;
+  }
+
+ 
+  .events .participated_section:hover .title{
+  
+    font-size: 8vh;
+    transition: 500ms;
+  }
+  
+  
+  
+  .events .participated_section:hover{
+  
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+  }
+
+  .events .voluntership_section h2{
+  
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .events .voluntership_section{
+  
+    width: 85%;
+    margin: auto;
+    height: auto;
+    padding: 3%;
+    text-align: left;
+  }
+  
+  .events .voluntership_section .title{
+  
+    font-size: 7vh;
+    color: white;
+    margin-bottom: 0%;
+    font-weight: bolder;
+  }
+  
+  
+
+  .events .voluntership_section .role{
+  
+    font-size: 4vh;
+    font-weight: bolder;
+    color: white;
+    margin-top: 0.1%;
+    margin-bottom: 2%;
+  }
+
+ 
+  .events .voluntership_section:hover .title{
+  
+    font-size: 8vh;
+    transition: 500ms;
+  }
+  
+  
+  
+  .events .voluntership_section:hover{
+  
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 500ms;
+  }
+
+  @media screen and (max-width:915px) {
+
+
+    .events h1{
+
+      font-size: 4vh;
+    }
+
+    .events .organized_section h2{
+
+      font-size: 3.5vh;
+    }
+
+    .events .organized_section .title{
+
+      font-size: 5.5vh;
+    }
+
+    .events .organized_section .role{
+
+      font-size: 3vh;
+    }
+
+    .events .participated_section h2{
+
+      font-size: 3.5vh;
+    }
+
+    .events .participated_section .title{
+
+      font-size: 5.2vh;
+    }
+
+    .events .participated_section .role{
+
+      font-size: 3vh;
+    }
+
+    .events .voluntership_section h2{
+
+      font-size: 3.5vh;
+    }
+
+    .events .voluntership_section .title{
+
+      font-size: 5.2vh;
+    }
+
+    .events .voluntership_section .role{
+
+      font-size: 3vh;
+    }
+
+    .events .organized_section:hover .title{
+  
+      font-size: 5.6vh;
+    }
+
+    .events .participated_section:hover .title{
+  
+      font-size: 5.6vh;
+    }
+
+    .events .voluntership_section:hover .title{
+  
+      font-size: 5.6vh;
+    }
+    
+    .nav_bar span{
+  
+    
+        font-size: 3.8vh;
+        
+    }
+    
+    
+    .nav_bar .drop_down button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.9vh;
+        padding: 1.2vh;
+        font-weight: bold;
+    }
+    
+    .dropdown_content a{
+    
+       
+        font-size: 2vh;
+        padding: 3vh;
+        
+    }
+
+    .nav_bar .drop_down .dropdown_content{
+
+      position: absolute;
+      left: -230%;
+      top: 5vh;   
+     
+    }
+  
+    
+  }

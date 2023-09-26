@@ -1,0 +1,320 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    background-image: url('images/background003.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .nav_bar{
+
+    padding: 2%;
+    width: auto;
+    margin: auto;
+    height: 3vh;
+    
+    
+  }
+  
+  .nav_bar span{
+  
+    
+    font-size: 5vh;
+    color: white;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  
+  .nav_bar .drop_down{
+  
+    width: auto;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  
+  .nav_bar .drop_down button{
+  
+    width: 10vh;
+    height: 6vh;
+    border-radius: 10%;
+    border: none;
+    font-size: 2.6vh;
+    color: black;
+    background-color: white;
+  }
+  
+  .nav_bar .drop_down .dropdown_content{
+  
+    position: absolute;
+    display: none;
+    left: -130%;
+    top: 6vh;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 3vh;
+       
+   
+  }
+  
+  .dropdown_content a{
+  
+    float: none;
+    display: block;
+    font-size: 2.5vh;
+    padding: 3vh;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+    
+  }
+  
+  
+  .nav_bar .drop_down:hover .dropdown_content{
+  
+    
+    display: block;
+    transition: 700ms;
+    
+    
+   
+  }
+  
+  
+  .drop_down button:hover{
+  
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+  }
+  
+  .dropdown_content a:hover{
+  
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+  }
+  
+  
+  .projects_div{
+  
+    width: auto;
+    height: auto;
+    padding: 2%;
+  
+  }
+  
+  .projects_div h1{
+  
+    font-size: 6.5vh;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .projects_div .projects{
+  
+    width: 85%;
+    margin: auto;
+    height: auto;
+    padding: 3%;
+    text-align: left;
+  }
+  
+  .projects_div .projects .project_title{
+  
+    font-size: 7vh;
+    color: white;
+    margin-bottom: 0%;
+    font-weight: bolder;
+   
+  }
+  
+  .projects_div .projects .domain{
+  
+    font-size: 5vh;
+    font-weight: bolder;
+    color: white;
+    margin-top: 0.1%;
+    margin-bottom: 2%;
+  }
+  
+  .projects_div .projects:hover .project_title{
+  
+    font-size: 8vh;
+    transition: 500ms;
+  }
+  
+ 
+  
+  .projects_div .projects:hover{
+  
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all ease 1s;
+  }
+
+  .drop_description{
+
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: none;
+    
+
+  }
+
+  .drop_description .role{
+
+    font-size: 4.5vh;
+    color: white;
+    font-weight: bolder;
+   
+  }
+
+  .drop_description .description{
+
+    font-size: 3.3vh;
+    color: white;
+    font-weight: bolder;
+    text-align: justify;
+    line-height: 3.5vh;
+    
+    
+
+  }
+
+  .drop_description .role_description{
+
+    font-size: 3.3vh;
+    color: white;
+    font-weight: bolder;
+    text-align: justify;
+    line-height: 3.5vh;
+    
+
+  }
+
+  .drop_description p{
+
+    font-size: 2.7vh;
+    color: white;
+    line-height: 6vh;
+    text-align: justify;
+
+  }
+
+  .projects_div .projects:hover .drop_description{
+
+    display: block;
+    transition: all ease 1s;
+  }
+
+  .projects_div .projects:hover .role{
+  
+    transition: all ease 1s;
+  }
+
+  .projects_div .projects:hover .description{
+  
+    transition: all ease 1s;
+  }
+
+  .projects_div .projects:hover .role_description{
+  
+    transition: all ease 1s;
+  }
+
+  .projects_div .projects:hover p{
+  
+    transition: all ease 1s;
+  }
+
+  @media screen and (max-width:915px) {
+
+
+
+    .projects_div h1{
+
+      font-size: 4vh;
+    }
+
+    .projects_div .projects .project_title{
+
+      font-size: 5vh;
+
+    }
+
+    .projects_div .projects .domain{
+
+      font-size: 3.3vh;
+
+    }
+
+    .projects_div .projects:hover .project_title{
+
+      font-size: 5.8vh;
+
+    }
+
+    .drop_description .role{
+
+      font-size: 3.8vh;
+    }
+
+    .drop_description .description{
+
+      font-size: 3.2vh;
+    }
+
+    .drop_description .role_description{
+
+      font-size: 2.9vh;
+    }
+
+    .drop_description p{
+
+      font-size: 2.2vh;
+    }
+
+    .nav_bar span{
+  
+    
+        font-size: 3.8vh;
+        
+    }
+    
+    
+    .nav_bar .drop_down button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.9vh;
+        padding: 1.2vh;
+        font-weight: bold;
+    }
+    
+    .dropdown_content a{
+    
+       
+        font-size: 2vh;
+        padding: 3vh;
+        
+    }
+
+    .nav_bar .drop_down .dropdown_content{
+
+      position: absolute;
+      left: -230%;
+      top: 5vh;   
+     
+    }
+   
+  }

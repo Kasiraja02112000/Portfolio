@@ -1,0 +1,381 @@
+body{
+
+    margin: 0%;  
+    padding: 0%;  
+    background-image: url('images/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav_bar{
+
+    padding: 2%;
+    width: auto;
+    margin: auto;
+    height: 2%;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.nav_bar span{
+
+    
+    font-size: 5vh;
+    color: white;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.nav_bar .drop_down{
+
+    width: auto;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.nav_bar .drop_down button{
+
+    width: 10vh;
+    height: 6vh;
+    border-radius: 10%;
+    border: none;
+    font-size: 2.6vh;
+    color: black;
+    background-color: white;
+}
+
+.nav_bar .drop_down .dropdown_content{
+
+    position: absolute;
+    display: none;
+    left: -130%;
+    top: 6vh;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 2.5vh;
+       
+}
+
+.dropdown_content a{
+
+    float: none;
+    display: block;
+    font-size: 2.5vh;
+    padding: 3vh;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+    
+}
+
+
+.nav_bar .drop_down:hover .dropdown_content{
+
+    
+    display: block;
+    transition: 700ms;
+    
+    
+   
+}
+
+
+.drop_down button:hover{
+
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+}
+
+.dropdown_content a:hover{
+
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+}
+
+
+.content{
+
+    width: auto;
+    margin: auto;
+    height: auto;
+    padding: 4%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.content .myimage{
+
+    width: 23vh;
+    height: 23vh;
+    border-radius: 50%;
+}
+
+.content .myimage:hover{
+
+    width: 26vh;
+    height: 26vh;
+    transition: 500ms;
+}
+
+.content h1{
+
+    font-size: 5vw;
+    color: white;
+}
+
+.content h2 {
+
+    font-size: 4vw;
+    color: white;
+}
+
+
+
+.content p{
+
+    font-size: 2.3vw;
+    color: white;
+}
+
+.content button{
+
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    font-weight: 900;
+    padding: 1%;
+    border-color: black;
+    border-radius: 10%;
+
+}
+
+.content button:hover{
+
+    background-color:  #ff1a66;
+    color: white;
+    transition: 300ms;
+    font-size: 2.5vh;
+}
+
+.bottom{
+
+    height: auto;
+    margin: auto;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vh;
+    background-color: black;
+}
+
+.bottom .contact{
+
+    margin: auto;
+    height: auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5%;
+}
+
+.bottom .contact span{
+
+    font-size: 6vh;
+    font-weight: bolder;
+    color: white;
+}
+
+.bottom .contact img{
+
+    width: 6vh;
+    height: 6vh;
+    padding: 2vh;
+}
+
+.bottom .contact img:hover{
+
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    transition: 600ms;
+}
+
+.bottom .contact h3{
+
+    color: white;
+    font-size: 3vh;
+}
+
+.bottom .resume{
+
+    margin: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom .resume .download_button{
+
+    background-color:  #ff1a66;
+    color: white;
+    border: none;
+    font-size: 2.5vh;
+    font-weight: 900;
+    padding: 4%;
+    width: auto;
+    height: auto;
+}
+
+.bottom .resume .resume_content{
+
+    color: white;
+    font-size: 3.5vh;
+    font-weight: bolder;
+}
+
+.bottom .resume .download_button:hover{
+
+    background-color: white;
+    color: #ff1a66;
+    border-radius: 5%;
+    font-size: 2.7vh;
+    font-weight: 900;
+    padding: 4%;
+    width: auto;
+    height: auto;
+    transition: 300ms;
+}
+
+@media screen and (max-width:915px) {
+
+    .bottom{
+
+        display: block;
+        transition: 300ms;
+    }
+
+    .bottom .contact span{
+
+        font-size: 4.5vh;
+        transition: 300ms;
+        
+    }
+
+    .content p{
+
+        font-size: 4.9vw;
+        transition: 300ms;
+    }
+
+    .content h1{
+
+        font-size: 6.5vw;
+        transition: 300ms;
+    }
+
+    .content h2{
+
+        font-size: 6vw;
+        transition: 300ms;
+    }
+
+    .content button{
+
+        font-size: 1.7vh;
+        font-weight: lighter;
+        padding: 1.7vh;
+        transition: 300ms;
+    
+    }
+
+    .content .myimage{
+
+        width: 19vh;
+        height: 19vh;
+        border-radius: 50%;
+        transition: 300ms;
+    }
+
+    .bottom .contact img{
+
+        width: 5vh;
+        height: 5vh;
+        padding: 2vh;
+        transition: 300ms;
+    }
+
+    .bottom .contact h3{
+
+        font-size: 2.5vh;
+        font-weight: lighter;
+        transition: 300ms;
+    }
+
+    .bottom .resume .download_button{
+
+        font-size: 1.3vh;
+        margin-bottom: 2.5vh;
+        transition: 300ms;
+    }
+
+    .bottom .resume .resume_content{
+
+        font-size: 2.3vh;
+        font-weight: lighter;
+        transition: 300ms;
+
+    }
+
+    .nav_bar span{
+
+    
+        font-size: 3.8vh;
+        
+    }
+    
+    .nav_bar .drop_down .dropdown_content{
+
+        position: absolute;
+        left: -230%;
+        top: 5vh;   
+       
+      }
+    .nav_bar .drop_down button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.9vh;
+        padding: 1.2vh;
+        font-weight: bold;
+    }
+
+    .dropdown_content a{
+    
+       
+        font-size: 2vh;
+        
+        
+        
+    }
+    
+
+    
+    
+}

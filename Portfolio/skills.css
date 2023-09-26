@@ -1,0 +1,235 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    background-image: url('images/background003.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .nav_bar{
+
+    padding: 4%;
+    width: auto;
+    margin: auto;
+    height: 3vh;
+    
+  }
+  
+  .nav_bar span{
+  
+    
+    font-size: 5vh;
+    color: white;
+    display: inline-block;
+    font-weight: bolder;
+  }
+  
+  .nav_bar .drop_down{
+  
+    width: auto;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  
+  .nav_bar .drop_down button{
+  
+    width: 10vh;
+    height: 6vh;
+    border-radius: 10%;
+    border: none;
+    font-size: 2.6vh;
+    color: black;
+    background-color: white;
+  }
+  
+  .nav_bar .drop_down .dropdown_content{
+  
+    position: absolute;
+    display: none;
+    left: -130%;
+    top: 6vh;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 3vh;
+       
+   
+  }
+  
+  .dropdown_content a{
+  
+    float: none;
+    display: block;
+    font-size: 2.5vh;
+    padding: 3vh;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    
+    
+    
+  }
+  
+  
+  .nav_bar .drop_down:hover .dropdown_content{
+  
+    
+    display: block;
+    transition: 700ms;
+    
+    
+   
+  }
+  
+  
+  .drop_down button:hover{
+  
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+  }
+  
+  .dropdown_content a:hover{
+  
+    background-color: #6601e5;
+    color: white;
+    transition: 700ms;
+    
+  }
+  
+  h1{
+  
+    font-size: 6.5vh;
+    color: white;
+    text-align: center;
+  }
+
+  .skills_div{
+  
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    column-gap: 4vh;
+    row-gap: 4vh;
+    grid-template-columns: 2.5fr 2.5fr 2.5fr 2.5fr;
+    grid-template-areas: 5fr 5fr;
+    padding: 5vh;
+  
+  }
+
+  .skills_div .skill{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4vh;
+    border-radius: 25%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+  }
+
+  .skills_div .skill .skill_name{
+
+    font-size: 3vh;
+    font-weight: bolder;
+    color: white;
+    margin-top: 2vh;
+  }
+
+  .skills_div .skill img{
+
+    width: 15vh;
+    height: 15vh;
+  }
+
+  
+
+  .skills_div .skill:hover img{
+
+    width: 18vh;
+    height: 18vh;
+    transition: 500ms;
+
+  }
+
+  @media screen and (max-width:1000px) {
+
+    .skills_div{
+
+      display: grid;
+      grid-template-columns: 5fr 5fr;
+    }
+    
+  }
+
+  @media screen and (max-width:600px) {
+
+    .skills_div{
+
+      display: block;
+      padding: 2vh;
+  
+    }
+
+    .skills_div .skill{
+
+      width: auto;
+      height: auto;
+      margin: 5vh;
+    }
+    
+  }
+
+
+  @media screen and (max-width:915px) {
+
+    
+
+    h1{
+
+      font-size: 5.2vh;
+      margin-top: 8vh;
+    }
+
+    .nav_bar span{
+
+    
+        font-size: 3.8vh;
+        
+    }
+    
+    
+    .nav_bar .drop_down button{
+    
+        width: auto;
+        height: auto;
+        font-size: 1.9vh;
+        padding: 1.2vh;
+        font-weight: bold;
+    }
+    
+    .dropdown_content a{
+    
+       
+        font-size: 2vh;
+        padding: 3vh; 
+        
+    }
+
+    .nav_bar .drop_down .dropdown_content{
+
+      position: absolute;
+      left: -230%;
+      top: 5vh;   
+     
+    }
+ 
+    
+}
+
